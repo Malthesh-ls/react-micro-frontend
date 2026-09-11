@@ -1,0 +1,25 @@
+/* The following line can be included in a src/App.scss */
+@use '~bootstrap/scss/bootstrap';
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #00409b;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
